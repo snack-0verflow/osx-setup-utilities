@@ -1,6 +1,37 @@
 # Setting up new OSX machine
 
-## Brew
+## 👌 Handy helpers
+
+<details>
+  <summary>Brew</summary>
+  
+  ### Script
+  ```sh
+  # https://brew.sh/
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  ```
+
+  ### Cask taps
+  ```sh
+  # You only need to do this once!
+  brew tap homebrew/cask
+  brew tap homebrew/cask-fonts
+  ```
+
+  ### Formulae
+  ```sh
+  tmux
+  iterm2
+  exa
+  fonttools
+  font-roboto
+  font-roboto-mono
+  font-roboto-mono-nerd-font
+  font-roboto-for-powerline
+  visual-studio-code
+  android-studio
+  ```
+</details>
 
 ### Installation
 
