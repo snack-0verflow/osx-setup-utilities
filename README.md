@@ -1,6 +1,4 @@
-# Setting up new OSX machine
-
-## 👌 Handy helpers
+# 👌 Handy helpers for new OSX machine
 
 <details>
   <summary>Brew</summary>
