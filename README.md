@@ -53,7 +53,7 @@
   
   ### Helper
   ```sh
-  EMAIL=cheuk-man.ng@ledger.fr
+  EMAIL=name@example.com
   git config --global user.name "Chuck Ng"
   git config --global user.email "$EMAIL"
   ssh-keygen -t ed25519 -C "$EMAIL"
