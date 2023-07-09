@@ -18,16 +18,23 @@
 
   ### Formulae
   ```sh
-  tmux
-  iterm2
-  exa
-  fonttools
-  font-roboto
-  font-roboto-mono
-  font-roboto-mono-nerd-font
-  font-roboto-for-powerline
-  visual-studio-code
-  android-studio
+  brew install tmux \
+  iterm2 \
+  exa \
+  bat \
+  glow \
+  pgp \
+  neovim \
+  fonttools \
+  font-roboto \
+  font-roboto-mono \
+  font-roboto-mono-nerd-font \
+  font-roboto-for-powerline \
+  android-studio \
+  visual-studio-code \
+  flipper \
+  nvm \
+  rectangle
   ```
 </details>
 
@@ -55,6 +62,24 @@
   ### Aliases
   ```sh
   alias tw="tmux new -n workspaces -s"
+  alias ls="exa --long --group --all --git"
+  alias cat="bat"
   ```
 
+  - [Create PGP Key](https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key)
+  - [Configure Git to use PGP Key](https://docs.github.com/en/authentication/managing-commit-signature-verification/telling-git-about-your-signing-key)
+
+</details>
+
+
+<details>
+   <summary>asdf</summary>
+   
+   - [Home Page](https://asdf-vm.com/)
+
+   ### Installation scripts
+   ```sh
+   brew install coreutils curl git
+   git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.12.0
+   ```
 </details>
