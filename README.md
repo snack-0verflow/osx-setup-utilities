@@ -14,6 +14,7 @@
   # You only need to do this once!
   brew tap homebrew/cask
   brew tap homebrew/cask-fonts
+  brew tap wix/brew
   ```
 
   ### Formulae
@@ -34,7 +35,8 @@
   visual-studio-code \
   flipper \
   nvm \
-  rectangle
+  rectangle \
+  applesimutils
   ```
 </details>
 
